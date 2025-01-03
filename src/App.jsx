@@ -1,7 +1,16 @@
 import React from 'react'
+import Sidebar from './components/sidebar'
 
-export const App = () => {
+const App = () => {
   return (
-    <h1>hey</h1>
+    <>
+    <div className='h-screen bg-black'>
+      <div className='h-[90%] flex'>
+        <Sidebar />
+      </div>
+    </div>
+    </>
   )
 }
+
+export default App
